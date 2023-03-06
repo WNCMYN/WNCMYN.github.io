@@ -1,0 +1,108 @@
+<head>
+    <meta charset="utf-8">
+    <title>TurnOvers</title>
+    <link href="style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+</head>
+<body>
+<script>
+function openNav() {
+    document.getElementById("sideNavigation").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sideNavigation").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+
+function showOptions() {
+    var options = document.getElementById("options");
+    if (options.style.display === "none") {
+        options.style.display = "block";
+    } else {
+        options.style.display = "none";
+    }
+}
+const menuDeroulant = document.getElementById("menuDeroulant");
+menuDeroulant.addEventListener("change", function() {
+  const choix = menuDeroulant.value;
+  console.log("Vous avez choisi : " + choix);
+});
+
+function LightMode () {
+	document.body.style.background = "linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(8,7,7,1) 10%, rgba(23,23,23,1) 18%, rgba(153,153,153,1) 45%, rgba(153,153,153,1) 55%, rgba(23,23,23,1) 82%, rgba(8,7,7,1) 90%, rgba(0,0,0,1) 95%)"; 
+	document.getElementById("turn").src="img/turn0vers1.PNG";
+	document.body.style.color="black";
+
+}
+function BlackMode () {
+	document.body.style.background = "linear-gradient(90deg, rgba(153,153,153,1) 5%, rgba(24,21,21,1) 33%, rgba(8,7,7,1) 40%, rgba(0,0,0,1) 45%, rgba(0,0,0,1) 55%, rgba(8,7,7,1) 60%, rgba(23,23,23,1) 67%, rgba(153,153,153,1) 95%)"; 
+	document.getElementById("turn").src="turn0vers.JPG";
+	document.body.style.color="white";
+}
+</script>
+<header>
+    <div class="banniere">
+        <a href=index.html><img src="turn0vers.JPG" alt="logo" id="turn" /></a>
+    </div>
+
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" onclick="showOptions()">discover</a>
+        <div id="options">
+            <a href="sweats.html" class="sous-options">sweats</a>
+            <a href="tees.html" class="sous-options">T-shirts</a>
+            <a href="pants.html" class="sous-options">Pants</a>
+        </div>
+        <a href="about us.html">about us </a>
+        <a href="cart.html">Cart</a>
+    </div>
+
+    <nav class="topnav">
+        <a href="#" onclick="openNav()">
+            <svg width="30" height="30" id="icoOpen">
+                <path d="M0,5 30,5" stroke="#FFFF" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#FFFF" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#FFFF" stroke-width="5"/>
+            </svg>
+        </a>
+    </nav>
+</header>
+  <div class="container">
+    <img src="img/black-tee.JPG" class="produit" width="800 px">
+    <p class="detail">black tee<br>
+	39.00€<br>
+	<select id="menuDeroulant">
+    <option value="choix1">choose a size</option>
+    <option value="choix2">XS</option>
+    <option value="choix3">S</option>
+	<option value="choix4">M</option>
+	<option value="choix5">L</option>
+	<option value="choix6">XL</option>
+    </select><br><br>
+
+	<button onclick="enregistrerVariable()">Add to cart</button></p>
+  <script>
+    function enregistrerVariable() {
+      let valeur = "Valeur enregistrée";
+      console.log(valeur);
+      alert("Your article has been save in your cart!");
+    }
+  </script>
+    </div>
+	<button onclick="LightMode ()">Turn to light</button>
+<button onclick="BlackMode ()">Turn to black</button>
+
+	<br><br><br>
+  <table width="100%"><tr>
+<td>  <ul><li>free returns: you have 30 days</li></ul></td>
+<td> <ul> <li>free shipping over 80€</li></ul></td>
+<td> <ul> <li>Need help? Contact <a href="about us.html" id="us">us</a></li></ul></td>
+</tr></table>
+
+
+</body>
+</html>
