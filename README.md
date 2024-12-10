@@ -1,50 +1,67 @@
 # WEB_102
 
-### thème : *Agence de voyage dans l'espace*
+# **Projet : Agence de voyage dans l'espace**
 
-## Pages du site : 
-- Accueil
-- A propos
-- Contact
-- Notre Système solaire
-- Galaxy far far away
+Bienvenue dans le projet de création d'un site web pour une **agence de voyage interstellaire** ! Voici les consignes pour la mise en œuvre.
 
+---
+
+## **Pages du site**
+
+### **Principales :**
+- **Accueil**
+- **À propos**
+- **Contact**
+- **Notre Système Solaire**
+- **Galaxy Far, Far Away** (Accès premium possible)
+
+### **Planètes du système solaire :**
 - Mercure
-- Venus
-- Terre --> Lune
+- Vénus
+- Terre → Lune
 - Mars
-- (Asteroides)
+- (Astéroïdes)
 - Jupiter
 - Saturne
 - Uranus
-- Neptune  
+- Neptune
 
-- Death star
+### **Planètes de Star Wars :**
+- Death Star
 - Tatooine
 - Naboo
 - Kamino
 - Yavin IV
 - Mustafar
----  
-## Accueil  
-</br>
-La page doit être assez sobre, elle permettra d'accèder à "Notre système solaire" et "Galaxy far far away", 
-la deuxième page pourra potentiellement demander un compte premium.
-</br>
-Il y aura aussi une section présente sur toutes les autres pages (en bas ou sur un coté), elle permettra de naviguer rapidement entre les pages du site. 
-Et une deuximèe section également présente sur toutes les pages qui affichera un faux copy-right, le A propos et les Contacts
-</br>
 
-## Notre Système solaire  
-</br>
-La page doit afficher les planètes alignées, elles grossiront ou se mettront à tourner au survol de la souris.
-</br>
-La page donnera accès à toutes les planètes du système solaire.
-</br>
+---
 
-## Notre Système solaire  
-</br>
-La page doit afficher les planètes de star wars, réparti autour de la galaxyie de star wars, elles grossiront ou se mettront à tourner au survol de la souris.
-</br>
-La page donnera accès à toutes les planètes de star wars.
-</br>
+## **Détails des pages**
+
+### **Page : Accueil**
+- Présentation sobre et épurée.
+- Deux liens principaux :
+  1. **"Notre Système Solaire"** (accessible à tous).
+  2. **"Galaxy Far, Far Away"** (peut nécessiter un compte premium).
+- **Navigation persistante** (présente sur toutes les pages) :
+  - Barre de navigation rapide entre les différentes pages.
+  - Section dédiée au faux copyright, un lien vers "À propos", et un autre vers "Contacts".
+
+---
+
+### **Page : Notre Système Solaire**
+- Affichage des **planètes alignées** de notre système solaire.
+- **Interaction au survol** :
+  - Les planètes grossissent ou se mettent à tourner.
+- Chaque planète est cliquable et mène à une page dédiée pour explorer ses particularités.
+
+---
+
+### **Page : Galaxy Far, Far Away**
+- Affichage des **planètes de l'univers Star Wars** :
+  - Réparties autour d'une représentation de la galaxie Star Wars.
+- **Interaction au survol** :
+  - Les planètes grossissent ou se mettent à tourner.
+- Chaque planète est cliquable et mène à une page dédiée pour explorer ses particularités.
+
+---
