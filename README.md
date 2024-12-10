@@ -27,3 +27,7 @@
 - Kamino
 - Yavin IV
 - Mustafar
+---  
+## Accueil
+La page doit être assez sobre, elle permettra d'accèder à "Notre système solaire" et "Galaxy far far away", 
+la deuxième page pourra potentiellement demander un compte premium.
