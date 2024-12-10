@@ -65,3 +65,25 @@ Bienvenue dans le projet de création d'un site web pour une **agence de voyage 
 - Chaque planète est cliquable et mène à une page dédiée pour explorer ses particularités.
 
 ---
+
+### **Consignes**
+- hébergé
+- favicon
+- description
+- thème
+- menu
+- liens vers d'autres sites web
+- formulaire
+- video avec sous titrage
+- ancrage (pour longues pages)
+- possibilité de changer de style
+- adaptatif
+- bonne architecture des répertoires
+- programation soignée
+- accessibilité, référencement, réseaux sociaux, optimisation
+- écoconception
+- W3C HTML
+- W3C CSS
+- ajout de fonctionnalités + GitHub
+
+---
