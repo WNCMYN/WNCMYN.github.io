@@ -8,8 +8,7 @@
 - Contact
 - Notre Système solaire
 - Galaxy far far away
-
-
+</br>
 - Mercure
 - Venus
 - Terre --> Lune
@@ -19,8 +18,7 @@
 - Saturne
 - Uranus
 - Neptune  
-
-  
+</br>
 - Death star
 - Tatooine
 - Naboo
@@ -29,8 +27,9 @@
 - Mustafar
 ---  
 ## Accueil  
-
+</br>
 La page doit être assez sobre, elle permettra d'accèder à "Notre système solaire" et "Galaxy far far away", 
 la deuxième page pourra potentiellement demander un compte premium.
+</br>
 Il y aura aussi une section présente sur toutes les autres pages (en bas ou sur un coté), elle permettra de naviguer rapidement entre les pages du site. 
 Et une deuximèe section également présente sur toutes les pages qui affichera un faux copy-right, le A propos et les Contacts
