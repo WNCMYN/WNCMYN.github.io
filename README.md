@@ -36,3 +36,15 @@ Et une deuximèe section également présente sur toutes les pages qui affichera
 </br>
 
 ## Notre Système solaire  
+</br>
+La page doit afficher les planètes alignées, elles grossiront ou se mettront à tourner au survol de la souris.
+</br>
+La page donnera accès à toutes les planètes du système solaire.
+</br>
+
+## Notre Système solaire  
+</br>
+La page doit afficher les planètes de star wars, réparti autour de la galaxyie de star wars, elles grossiront ou se mettront à tourner au survol de la souris.
+</br>
+La page donnera accès à toutes les planètes de star wars.
+</br>
