@@ -1,19 +1,24 @@
 body {
-    background-image: url("images/stars.jpg");
-    background-size: cover;
+    background: no-repeat url("img/space.jpg");
     color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    width:100%;
+}
+img{
+    width: 100px;
 }
 .menu {
     height: 60px;
-    position: fixed;
     top: 0;
     left: 0;
     display: flex;
-    width: 100%;
     padding: 0px 10px;
     border-radius: 10px;
     justify-content: space-around;
-    background-color: rgba(24, 26, 24, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     color: var(--bg-text-clr);
     z-index: 3;
 }
