@@ -5,9 +5,9 @@ body {
     font-weight: 400;
     font-style: normal;
     margin:0;
-    width:100%;
+    width:550px;
 }
-img{
+.logo{
     width: 100px;
 }
 .menu {
@@ -18,7 +18,6 @@ img{
     padding: 0px 10px;
     border-radius: 10px;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
     color: var(--bg-text-clr);
     z-index: 3;
 }
@@ -39,4 +38,52 @@ img{
     background-color: var(--bg-text-clr);
     color: #1a1a1a;
     border-radius: 7px;
+}
+.planets {
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0px 10px;
+    border-radius: 10px;
+    justify-content: center;
+    color: var(--bg-text-clr);
+    z-index: 3;
+}
+.planets ul{
+
+    list-style-type: none;
+}
+
+.planets ul li a{
+    text-decoration: none;
+    font-weight: bold;
+
+    color: var(--bg-text-clr);
+}
+
+.planets ul li a:hover{
+    background-color: var(--bg-text-clr);
+    color: #1a1a1a;
+    border-radius: 7px;
+}
+
+.planets > ul > li {
+    position: absolute;
+    bottom: 67vh;
+}
+.planets img {
+    width:30vw;
+}
+
+.moon{
+    bottom:75%;
+    left: 20%;
+}
+.mars{
+    bottom:75%;
+    left: 40%;
+}
+.jupiter{
+    bottom:75%;
+    left: 60%;
 }
