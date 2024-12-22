@@ -19,7 +19,7 @@ body {
     color: var(--bg-text-clr);
     z-index: 3;
     background-color: rgb(62 , 62 , 62 );
-    
+    font-size:2em;
 }
 .menu ul{
     display: flex;
