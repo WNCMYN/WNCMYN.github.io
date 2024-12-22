@@ -14,9 +14,8 @@ body {
     width: 100vw;
     left: 0;
     display: flex;
-    padding: 0px 10px;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     color: var(--bg-text-clr);
     z-index: 3;
     background-color: rgb(62 , 62 , 62 );
