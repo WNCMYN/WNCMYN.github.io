@@ -118,7 +118,7 @@ body {
 
 .starwars > ul > li {
     position: absolute;
-    bottom: 67vh;
+    bottom: 80vw;
 }
 .starwars img {
     width:30vw;
