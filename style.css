@@ -7,12 +7,11 @@ body {
     margin:0;
     width:550px;
 }
-.logo{
-    width: 100px;
-}
+
 .menu {
-    height: 60px;
+    height: 8vw;
     top: 0;
+    width: 100vw;
     left: 0;
     display: flex;
     padding: 0px 10px;
@@ -20,6 +19,8 @@ body {
     justify-content: space-around;
     color: var(--bg-text-clr);
     z-index: 3;
+    background-color: rgb(62 , 62 , 62 );
+    
 }
 .menu ul{
     display: flex;
@@ -38,6 +39,10 @@ body {
     background-color: var(--bg-text-clr);
     color: #1a1a1a;
     border-radius: 7px;
+}
+.menu img {
+    width: 20vw; 
+    height: auto; 
 }
 .planets {
     top: 0;
