@@ -57,7 +57,6 @@ body {
 .planets ul li a{
     text-decoration: none;
     font-weight: bold;
-
     color: var(--bg-text-clr);
 }
 
