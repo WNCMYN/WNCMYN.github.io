@@ -118,7 +118,7 @@ body {
 
 .starwars > ul > li {
     position: absolute;
-    bottom: 80vw;
+    bottom: 30vh;
 }
 .starwars img {
     width:30vw;
@@ -135,4 +135,31 @@ body {
 .naboo{
     bottom:75%;
     left: 60%;
+}
+footer{
+    background-color: rgb(62 , 62 , 62 );
+    width: 100%;
+    height: 80px;
+    color: white;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+.footer ul {
+    display: flex; /* Met les <li> sur une ligne */
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0; /* Supprime les marges par défaut */
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.footer li {
+    margin: 0 10px; /* Réduit l'espacement entre les icônes */
+} 
+.footer h2{
+    margin: 0;
+}
+.footer img {
+    width: 30px; /* Ajuste la taille des icônes */
+    height: auto; /* Conserve le ratio de l'image */
 }
