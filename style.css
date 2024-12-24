@@ -167,3 +167,46 @@ footer{
     width: 30px; /* Ajuste la taille des icônes */
     height: auto; /* Conserve le ratio de l'image */
 }
+.lune{
+    padding-top: 5vh;
+    position: fixed;
+}
+.lune ul{
+    list-style-type: none; /* Supprimer les puces */
+    padding: 0;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+.lune li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajoute de l'espace entre le texte et l'image */
+    margin-bottom: 10px;
+}
+.lune_text{
+    font-size: 3em;
+    margin-left:5vw;
+}
+
+.texte{
+    margin-right: 5vw;
+    margin-left:5vw;
+    font-size: 2em;
+    width:30vw
+}
+.lune img{
+    width:100vw;
+    right:50%
+}
+
+.titre{
+    margin-top: 0;
+}
+.visit{
+    margin-bottom:0;
+}
+button{
+    margin-top: 80vh;
+    margin-left: 5vw;
+}
