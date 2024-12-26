@@ -1,0 +1,97 @@
+body {
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    width: 100%; /* S'assurer que le body occupe tout l'écran */
+    height: 100vh; /* S'assurer que le body occupe toute la hauteur de l'écran */
+
+    background-size: cover; /* Adapte l'image pour couvrir toute la zone */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Pas de répétition */
+}
+
+/* Paysage : largeur > hauteur */
+@media (min-aspect-ratio: 1/1) {
+    body {
+        background-image: url("img/fond_espace_paysage.jpg");
+    }
+}
+
+/* Portrait : hauteur > largeur */
+@media (max-aspect-ratio: 1/1) {
+    body {
+        background-image: url("img/fond_espace_portrait.jpg");  
+    }
+}
+
+header {
+    background-color: rgb(62 , 62 , 62 );
+    width: 100%;
+    height: 80px;
+    color: white;
+    position: fixed;
+    top: 0;
+    opacity: 0.75;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none; /* Supprime les puces */
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+.void{
+    width: 100%;
+}
+
+.logo {
+    height: 80px; /* Taille du logo */
+    width: auto; /* Conserve les proportions */
+    margin-left: 2vh;
+}
+
+.bouton_contact{
+    height: 40px; /* Taille du logo */
+    width: auto; /* Conserve les proportions */
+}
+
+.bouton_destinations{
+    height: 40px; /* Taille du logo */
+    width: auto; /* Conserve les proportions */
+    padding: 5%;
+    margin-right: 2vh;
+}
+
+footer{
+    background-color: rgb(62 , 62 , 62 );
+    width: 100%;
+    height: 80px;
+    color: white;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.75;
+}
+.footer ul {
+    display: flex; /* Met les <li> sur une ligne */
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0; /* Supprime les marges par défaut */
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.footer li {
+    margin: 0 10px; /* Réduit l'espacement entre les icônes */
+} 
+.footer h2{
+    margin: 0;
+}
+.footer img {
+    width: 30px; /* Ajuste la taille des icônes */
+    height: auto; /* Conserve le ratio de l'image */
+}
