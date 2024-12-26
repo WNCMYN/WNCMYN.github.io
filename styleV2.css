@@ -147,7 +147,8 @@ body {
     } 
     .footer h3{
         margin: 0;
-        width: 10vh;
+        width: 15vh;
+        height: auto;
 
     }
     .footer img {
