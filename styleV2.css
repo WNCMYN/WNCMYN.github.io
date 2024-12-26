@@ -1,3 +1,6 @@
+/* code generique à chaque page du site*/
+
+/* le fond du site, la police et sa couleur */
 body {
     color: white;
     font-family: "Jersey 25", sans-serif;
@@ -26,6 +29,8 @@ body {
     }
 }
 
+
+/* Bandeau en haut (header) */
 header {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -67,6 +72,8 @@ header {
     margin-right: 2vh;
 }
 
+
+/* bandeau en bas (footer)*/
 footer{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -95,3 +102,5 @@ footer{
     width: 30px; /* Ajuste la taille des icônes */
     height: auto; /* Conserve le ratio de l'image */
 }
+
+
