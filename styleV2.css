@@ -184,7 +184,7 @@ body {
 
     }
     .footer img {
-        width: 2em; /* Ajuste la taille des icônes */
+        width: 6vw; /* Ajuste la taille des icônes */
         height: auto; /* Conserve le ratio de l'image */
     }
 }
