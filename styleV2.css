@@ -188,8 +188,69 @@ body {
         height: auto; /* Conserve le ratio de l'image */
     }
 }
-
+@media (min-width: 600px){
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        position: relative;
+    }
+    .planet {
+        display: block;
+        width: 20vw; /* Ajustez la largeur selon vos besoins */
+        margin-left: -50px; /* Ajustez la valeur pour le chevauchement */
+        transition: transform 0.3s ease;
+    }
+    .planet:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .planet img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    .planet:first-child {
+        margin-left: 0; /* Pas de marge négative pour le premier élément */
+    }
+    .titre{
+        margin-top: 10vh;
+        font-size:2vw;
+    }
+}
+@media (max-width: 599px){
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        position: relative;
+    }
+    .planet {
+        display: block;
+        width: 20vw; /* Ajustez la largeur selon vos besoins */
+        margin-left: -20px; /* Ajustez la valeur pour le chevauchement */
+        transition: transform 0.3s ease;
+    }
+    .planet:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .planet img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    .planet:first-child {
+        margin-left: 0; /* Pas de marge négative pour le premier élément */
+    }
+    .titre{
+        margin-top: 10vh;
+        font-size: 3vw;
+    }
+}
 /* Les mofifications CSS sont à rajouter a partir d'ici,
-Veuillez regroupez les commandes CSS par paga et la commenter.
-Il faudrait également rajouter le nom de la page avant chaque non de class pour éviter que deux commandes avec le mêmes noms s'executent.
-Encore sur le nom des class et des pages. Il ne nous est pas demandé de developper en anglais donc on rest en francais pour éviter des erreurs betes.*/
+Veuillez regroupez les commandes CSS par page et la commenter.
+Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
+Encore sur le nom des class et des pages. Il ne nous est pas demandé de developper en anglais donc on reste en francais pour éviter des erreurs betes.*/
+
+/*Implémentation de la page index.html dans le css et adaptation aux media queries*/
