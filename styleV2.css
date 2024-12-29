@@ -12,7 +12,7 @@ body {
 
     background-size: cover; /* Adapte l'image pour couvrir toute la zone */
     background-position: center; /* Centre l'image */
-    background-repeat: no-repeat; /* Pas de répétition */
+    background-repeat: repeat; /* Pas de répétition */
 }
 
 /* Paysage : largeur > hauteur */
@@ -324,6 +324,65 @@ body {
         border-radius: 50%;
     }
 }
+@media (max-width: 599px){
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 50px;
+        flex-wrap: wrap; /* Allow flex items to wrap on small screens */
+    }
+    
+    .left-column, .center-column, .right-column {
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        flex: 1 1 100%; /* Default to full width */
+    }
+    
+    .center-column .moon-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    
+    p {
+        margin: 10px 0;
+    }
+    
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    
+    .button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 14px;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+        background-color: #ddd;
+    }
+    
+}
 /* Les mofifications CSS sont à rajouter a partir d'ici,
 Veuillez regroupez les commandes CSS par page et la commenter.
 Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
@@ -331,4 +390,4 @@ Encore sur le nom des class et des pages. Il ne nous est pas demandé de develop
 
 /*Implémentation de la page index.html dans le css et adaptation aux media queries*/
 
-/*Implémentation de la page moon.html pour ordinateur et adaptation aux media queries*/
+/*Implémentation de la page moon.html sans les videos et adaptation aux media queries*/
