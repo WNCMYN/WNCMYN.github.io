@@ -187,6 +187,8 @@ body {
         height: auto; /* Conserve le ratio de l'image */
     }
 }
+
+/* Page Lune*/ 
 @media (min-width: 600px){
     nav {
         display: flex;
