@@ -248,9 +248,87 @@ body {
         font-size: 3vw;
     }
 }
+@media (min-width: 600px){
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 50px;
+        margin-top: 2vh;
+    }
+
+    .left-column, .center-column, .right-column {
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 10px;
+    }
+
+    .left-column {
+        flex: 1;
+    }
+
+    .center-column {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .right-column {
+        flex: 1.5;
+    }
+
+    h1 {
+        font-size: 2vw;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1vw;
+        margin-top: 0;
+    }
+
+    p {
+        margin: 10px 0;
+        font-size: 1vw;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        font-size: 1vw;
+    }
+
+    .button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 30px;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+    }
+
+    .button:hover {
+        background-color: #ddd;
+    }
+
+    .moon-image img {
+        width: 40vw;
+        height: auto;
+        border-radius: 50%;
+    }
+}
 /* Les mofifications CSS sont à rajouter a partir d'ici,
 Veuillez regroupez les commandes CSS par page et la commenter.
 Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
 Encore sur le nom des class et des pages. Il ne nous est pas demandé de developper en anglais donc on reste en francais pour éviter des erreurs betes.*/
 
 /*Implémentation de la page index.html dans le css et adaptation aux media queries*/
+
+/*Implémentation de la page moon.html pour ordinateur et adaptation aux media queries*/
