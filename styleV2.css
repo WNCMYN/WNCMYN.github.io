@@ -191,42 +191,65 @@ body {
 /* page destinations */
 
 
-.destinations_centre{
-    
-    font-size: 1.5vh;
-}
-
 @media (min-width: 800px){
     .destinations_centre{
         padding-top: 15vh;
         text-align: center;
-        font-size: 1.5vh;
+        font-size: 2.5vh;
+    }
+
+    .dest_choix_destination{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        padding-left: 0;
+    }
+
+    .dest_choix_destination li{
+        font-size: 1.4vw;
+        padding: 0 10vw;
+        }
+
+    .dest_choix_destination img{
+        height: 20vw;
+        width: auto;
     }
 }
 
 @media (max-width: 799px){
     .destinations_centre{
         padding-top: 10vh;
-        font-size: 1vh;
+        padding-left: 5vw;
+        font-size: 1.5vh;
+    }
+
+    .dest_choix_destination{
+        margin-top: 10vh;
+        padding-left: 0;
+    }
+
+    .dest_choix_destination li{
+    font-size: 1.5vh;
+    margin-bottom: 10vh;
+    }
+
+    .dest_choix_destination img{
+        height: 20vh;
+        width: auto;
     }
 }
 
 .dest_choix_destination{
     text-align: center;
     list-style: none;
-    margin-top: 10vh;
-    padding-left: 0;
-    margin-bottom: 10vh;
 }
 
-.dest_choix_destination li{
-    font-size: 1.5vh;
+
+.dest_choix_destination h2{
+    margin-top: 1vh;
 }
 
-.dest_choix_destination img{
-    height: 20vh;
-    width: auto;
-}
+
 
 /* Page Lune*/ 
 @media (min-width: 600px){
