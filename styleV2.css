@@ -320,22 +320,22 @@ body {
         flex: 1.5;
     }
 
-    h1 {
+    .grand_titre {
         font-size: 2vw;
         margin-bottom: 10px;
     }
 
-    h2 {
+    .sous_titre {
         font-size: 1vw;
         margin-top: 0;
     }
 
-    p {
+    .descriptif {
         margin: 10px 0;
         font-size: 1vw;
     }
 
-    ul {
+    .liste {
         list-style-type: disc;
         padding-left: 20px;
         font-size: 1vw;
@@ -387,21 +387,21 @@ body {
         border-radius: 50%;
     }
     
-    h1 {
+    .grand_titre {
         font-size: 36px;
         margin-bottom: 10px;
     }
     
-    h2 {
+    .sous_titre {
         font-size: 20px;
         margin-top: 0;
     }
     
-    p {
+    .descriptif {
         margin: 10px 0;
     }
     
-    ul {
+    .liste {
         list-style-type: disc;
         padding-left: 20px;
     }
