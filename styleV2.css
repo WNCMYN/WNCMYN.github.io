@@ -254,7 +254,7 @@ body {
 
 /* Page dest_syst_sol*/ 
 
-@media (max-width: 1049px){
+@media (max-width: 999px){
 
     .soleil_horizontal{
         display: flex;
@@ -298,7 +298,7 @@ body {
 }
 
 
-@media (min-width: 1050px){
+@media (min-width: 1000px){
     
 
     body {
@@ -349,13 +349,65 @@ body {
 
 
 
-/* Page dest_syst_sol*/ 
 
-@media (max-width: 1049px){
+/* Page dest_star_wars*/ 
+
+@media (max-width: 999px){
+
+    .dest_sw{
+        list-style: none;
+        padding: 8vh 0;
+        margin-top: 0;
+    }
+
+    .dest_sw li{
+        display: flex;
+        margin-top: 4vh;
+        justify-content: center;
+    }
+
+    .dest_sw img{
+        height: 40vw;
+        width: auto;
+    }
+
+    .dest_sw h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5vw;
+        font-size: 3vh;
+    }
+
 
 }
 
+@media (min-width: 1000px){
+    .dest_sw{
+        list-style: none;
+        padding: 8vh 4vw;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .dest_sw img{
+        height: 40vh;
+        width: auto;
+    }
+
+    .dest_sw h3{
+        display: flex;
+        justify-content: center;
+        font-size: 3vh;
+    }
+
+    .dest_sw li{
+        padding: 0 4vh;
+    }
+
+}
 
 
 /* Page Lune*/ 
