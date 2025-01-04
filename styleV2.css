@@ -254,32 +254,36 @@ body {
 
 /* Page dest_syst_sol*/ 
 
-@media (max-width: 999px){
-    .dest_syst_soleil_horizontal {
+@media (max-width: 1049px){
+
+    .soleil_horizontal{
+        display: flex;
+        justify-content: center;
+    }
+
+    .soleil_horizontal img{
         width: 100%;
         height: auto;
     }
 
-    .dest_syst_soleil_vertical{
+    .soleil_vertical{
         display: none;
     }
 
-    .dest_syst_planetes {
+    .dest_syst{
         list-style: none;
         padding-left: 0;
-        margin: 0 auto;
-        width: fit-content; /* Adapte la largeur à la taille du contenu */
         padding-bottom: 8vh;
-        font-size: 1.5vh;
+        margin-top: 0;
     }
 
-    .dest_syst_planetes li{
+    .dest_syst_planetes{
         display: flex;
         margin-top: 4vh;
-        justify-content: center;   
+        justify-content: center;
     }
 
-    .dest_syst_planetes img {
+    .dest_syst_planetes img{
         height: 40vw;
         width: auto;
     }
@@ -289,19 +293,60 @@ body {
         justify-content: center;
         align-items: center;
         padding: 0 5vw;
+        font-size: 3vh;
     }
 }
 
-@media (min-width: 1000px){
-    .dest_syst_soleil_horizontal {
-        display: none; 
+
+@media (min-width: 1050px){
+    
+
+    body {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
     }
 
-    .dest_syst_soleil_vertical{
+    .soleil_vertical{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .soleil_vertical img{
+        width: 12vw;
+    }
+
+    .soleil_horizontal{
+        display: none;
+    }
+
+    .dest_syst{
+        list-style: none;
+        display: flex;
+        margin-top: 80px;
+        padding-left: 0;
+    }
+
+    .dest_syst_planetes img{
+        height: 40vh;
         width: auto;
-        height: 100%;
     }
+
+    .dest_syst_planetes h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .dest_syst_planetes{
+        padding: 0 2vw;
+    }
+
+
+
 }
+
 
 
 /* Page Lune*/ 
