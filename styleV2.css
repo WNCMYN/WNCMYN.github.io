@@ -264,20 +264,29 @@ body {
         list-style: none;
         padding-left: 0;
         margin: 0 auto;
-        width: fit-content; /* Adapte la largeur à la taille du contenu */            
+        width: fit-content; /* Adapte la largeur à la taille du contenu */
+        padding-bottom: 8vh;
 
     }
 
     .dest_syst_planetes li{
         display: flex;
         margin-top: 4vh;
-        
+        justify-content: center;
     
     }
 
     .dest_syst_planetes img {
         height: 40vw;
         width: auto;
+
+    }
+
+    .dest_syst_planetes h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5vw;
 
     }
 
