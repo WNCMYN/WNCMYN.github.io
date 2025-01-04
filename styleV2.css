@@ -230,8 +230,8 @@ body {
     }
 
     .dest_choix_destination li{
-    font-size: 1.5vh;
-    margin-bottom: 10vh;
+        font-size: 1.5vh;
+        margin-bottom: 10vh;
     }
 
     .dest_choix_destination img{
@@ -255,9 +255,13 @@ body {
 /* Page dest_syst_sol*/ 
 
 @media (max-width: 999px){
-    .dest_syst_soleil {
+    .dest_syst_soleil_horizontal {
         width: 100%;
         height: auto;
+    }
+
+    .dest_syst_soleil_vertical{
+        display: none;
     }
 
     .dest_syst_planetes {
@@ -266,20 +270,18 @@ body {
         margin: 0 auto;
         width: fit-content; /* Adapte la largeur à la taille du contenu */
         padding-bottom: 8vh;
-
+        font-size: 1.5vh;
     }
 
     .dest_syst_planetes li{
         display: flex;
         margin-top: 4vh;
-        justify-content: center;
-    
+        justify-content: center;   
     }
 
     .dest_syst_planetes img {
         height: 40vw;
         width: auto;
-
     }
 
     .dest_syst_planetes h3{
@@ -287,10 +289,18 @@ body {
         justify-content: center;
         align-items: center;
         padding: 0 5vw;
+    }
+}
 
+@media (min-width: 1000px){
+    .dest_syst_soleil_horizontal {
+        display: none; 
     }
 
-
+    .dest_syst_soleil_vertical{
+        width: auto;
+        height: 100%;
+    }
 }
 
 
@@ -325,6 +335,7 @@ body {
         font-size:2vw;
     }
 }
+
 @media (max-width: 599px){
     nav {
         display: flex;
@@ -355,6 +366,7 @@ body {
         font-size: 3vw;
     }
 }
+
 @media (min-width: 600px){
     .container {
         display: flex;
@@ -431,6 +443,7 @@ body {
         border-radius: 50%;
     }
 }
+
 @media (max-width: 599px){
     .container {
         display: flex;
@@ -490,6 +503,7 @@ body {
     }
     
 }
+
 /* Les mofifications CSS sont à rajouter a partir d'ici,
 Veuillez regroupez les commandes CSS par page et la commenter.
 Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
