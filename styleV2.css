@@ -405,7 +405,10 @@ body {
         height: 40vh;
         width: auto;
     }
-
+    .dest_sw img:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
     .dest_sw h3{
         display: flex;
         justify-content: center;
