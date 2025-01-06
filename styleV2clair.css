@@ -1,1 +1,12 @@
-h
+body {
+    color: black;
+}
+header {
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
