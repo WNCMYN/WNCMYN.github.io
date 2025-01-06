@@ -1,5 +1,5 @@
 /* code generique à chaque page du site*/
-
+/*test*/
 /* le fond du site, la police et sa couleur */
 body {
     color: white;
@@ -265,7 +265,7 @@ body {
         width: 100%;
         height: auto;
     }
-
+    
     .soleil_vertical{
         display: none;
     }
@@ -282,7 +282,10 @@ body {
         margin-top: 4vh;
         justify-content: center;
     }
-
+    .dest_syst_planetes img:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
     .dest_syst_planetes img{
         height: 40vw;
         width: auto;
@@ -310,7 +313,7 @@ body {
     .soleil_vertical img{
         width: 12vw;
     }
-
+    
     .soleil_horizontal{
         display: none;
     }
@@ -327,6 +330,11 @@ body {
     .dest_syst_planetes img{
         height: 40vh;
         width: auto;
+    }
+
+    .dest_syst_planetes img:hover {
+        transform: scale(1.1);
+        z-index: 1;
     }
 
     .dest_syst_planetes h3{
@@ -365,7 +373,11 @@ body {
         height: 40vw;
         width: auto;
     }
-
+    
+    .dest_sw img:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
     .dest_sw h3{
         display: flex;
         justify-content: center;

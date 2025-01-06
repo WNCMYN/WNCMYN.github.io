@@ -67,23 +67,23 @@ Bienvenue dans le projet de création d'un site web pour une **agence de voyage 
 ---
 
 ### **Consignes**
-- hébergé
-- favicon
-- description
-- thème
-- menu
-- liens vers d'autres sites web
+- [x] hébergé
+- [x] favicon
+- [x] description
+- [x] thème
+- [x] menu
+- [x] liens vers d'autres sites web
 - formulaire
 - video avec sous titrage
 - ancrage (pour longues pages)
 - possibilité de changer de style
-- adaptatif
+- [x] adaptatif
 - bonne architecture des répertoires
-- programation soignée
+- [x] programation soignée
 - accessibilité, référencement, réseaux sociaux, optimisation
 - écoconception
-- W3C HTML
-- W3C CSS
-- ajout de fonctionnalités + GitHub
+- [x] W3C HTML
+- [x] W3C CSS
+- [x] ajout de fonctionnalités + GitHub
 
 ---
