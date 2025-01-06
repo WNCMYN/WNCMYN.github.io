@@ -325,8 +325,8 @@ body {
     .dest_syst{
         display: flex;
         align-items: center;
-        height: 60vh;
-        margin: 8vh 0 0 0;
+        height: calc(100% - 80px);
+        margin: 0;
         list-style: none;
         padding: 0;
     }
@@ -338,7 +338,6 @@ body {
     }
 
     
-
     .dest_syst_planetes h3{
         display: flex;
         justify-content: center;
@@ -391,11 +390,11 @@ body {
 @media (min-width: 1000px){
     .dest_sw{
         list-style: none;
-        padding: 8vh 0;
+        padding: 0;
         margin-top: 0;
         display: flex;
         align-items: center;
-        height: 65%;
+        height: calc(100% - 80px);
         margin: 0;
     }
 
