@@ -301,13 +301,6 @@ body {
 @media (min-width: 1000px){
     
 
-    body {
-        display: flex;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-
     .soleil_vertical{
         display: flex;
         justify-content: center;
@@ -323,9 +316,11 @@ body {
     }
 
     .dest_syst{
-        list-style: none;
         display: flex;
-        margin-top: 80px;
+        align-items: center;
+        height: 87vh;
+        margin:  80px 0;
+        list-style: none;
         padding-left: 0;
     }
 
@@ -385,11 +380,13 @@ body {
 @media (min-width: 1000px){
     .dest_sw{
         list-style: none;
-        padding: 8vh 4vw;
+        padding: 8vh 20vw;
         margin-top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 65%;
+        margin: 0;
     }
 
     .dest_sw img{
