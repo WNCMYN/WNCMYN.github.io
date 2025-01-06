@@ -1,6 +1,13 @@
 /* code generique à chaque page du site*/
 /*test*/
 /* le fond du site, la police et sa couleur */
+
+/*police*/
+@font-face {
+    font-family: "Jersey 25";
+    src: url("Jersey_25/Jersey25-Regular.ttf") format("truetype");
+}
+
 body {
     color: white;
     font-family: "Jersey 25", sans-serif;
@@ -272,9 +279,9 @@ body {
 
     .dest_syst{
         list-style: none;
-        padding-left: 0;
-        padding-bottom: 8vh;
-        margin-top: 0;
+        padding: 8vh 0;
+        margin: 0;
+        
     }
 
     .dest_syst_planetes{
@@ -321,11 +328,12 @@ body {
     .dest_syst{
         display: flex;
         align-items: center;
-        height: 87vh;
-        margin:  80px 0;
+        height: 60vh;
+        margin: 8vh 0 0 0;
         list-style: none;
-        padding-left: 0;
+        padding: 0;
     }
+
 
     .dest_syst_planetes img{
         height: 40vh;
@@ -392,10 +400,9 @@ body {
 @media (min-width: 1000px){
     .dest_sw{
         list-style: none;
-        padding: 8vh 20vw;
+        padding: 8vh 0;
         margin-top: 0;
         display: flex;
-        justify-content: center;
         align-items: center;
         height: 65%;
         margin: 0;
