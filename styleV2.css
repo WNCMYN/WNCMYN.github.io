@@ -334,6 +334,9 @@ body {
         margin: 0;
         list-style: none;
         padding: 0;
+        overflow-x: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: rgb(53, 53, 53) rgb(0, 0, 0);
     }
 
     .planets:hover {
@@ -409,7 +412,8 @@ body {
         height: calc(100% - 80px);
         margin: 0;
         overflow-x: scroll;
-        scrollbar-width: thin;
+        scrollbar-width:thin;
+        scrollbar-color: rgb(53, 53, 53) rgb(0, 0, 0);
     }
 
     .dest_sw img{
