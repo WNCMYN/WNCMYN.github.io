@@ -507,8 +507,11 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding: 50px;
+        padding: 100px 5vw;
         margin-top: 2vh;
+        overflow-y: scroll;
+        scrollbar-width:thin;
+        scrollbar-color: rgb(53, 53, 53) rgb(0, 0, 0);
     }
 
     .left-column, .center-column, .right-column {
