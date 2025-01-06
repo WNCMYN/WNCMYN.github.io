@@ -561,7 +561,7 @@ body {
         border-radius: 5px;
         text-decoration: none;
         transition: background-color 0.3s ease;
-
+        font-family:"Jersey 25", sans-serif;
     }
 
     .button:hover {
