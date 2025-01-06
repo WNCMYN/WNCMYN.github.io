@@ -408,6 +408,8 @@ body {
         align-items: center;
         height: calc(100% - 80px);
         margin: 0;
+        overflow-x: scroll;
+        scrollbar-width: thin;
     }
 
     .dest_sw img{
