@@ -69,7 +69,7 @@ Bienvenue dans le projet de création d'un site web pour une **agence de voyage 
 ### **Consignes**
 - [x] hébergé
 - [x] favicon
-- description
+- [x] description
 - [x] thème
 - [x] menu
 - [x] liens vers d'autres sites web
