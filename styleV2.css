@@ -466,8 +466,10 @@ body {
         margin-left: 0; /* Pas de marge négative pour le premier élément */
     }
     .titre{
-        margin-top: 10vh;
-        font-size:2vw;
+        padding-top: 10vh;
+        font-size: 3vw;
+        padding-left: 5vw;
+        margin: 0;
     }
 }
 
