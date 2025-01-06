@@ -7,7 +7,7 @@ elem.addEventListener('click',function(){
     let github = document.querySelector('.github');
     let youtube = document.querySelector('.youtube');
     let insta = document.querySelector('.insta');
-    if ("styleV2sombre.css" === themeLink.getAttribute("href")) {
+    if ("/styleV2sombre.css" === themeLink.getAttribute("href")) {
         themeLink.setAttribute("href", "/styleV2clair.css");
         logo.setAttribute("src", "/img/logo_blanc-modified.png");
         destinations.setAttribute("src", "/img/bouton_destination-modified.png");
