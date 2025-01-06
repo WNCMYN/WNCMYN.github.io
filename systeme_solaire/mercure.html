@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" >
-        <link rel="stylesheet" href="../styleV2.css">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="/styleV2.css">
+        <link rel="stylesheet" href="/styleV2sombre.css" id="theme">
         <title>Escape Space - Mercure</title>
-        <link rel="icon" type="image/vnd.icon" href="../img/favicon.ico">
+        <link rel="icon" type="image/vnd.icon" href="/img/favicon.ico">
         <meta name="description" content="Page de destination de la planète Mercure">
     </head>
     <body>
         <header class="header">
             <ul>
-                <li><a href="../index.html"><img src="../img/logo_blanc.png" alt="Logo Escape Space" class="logo"></a></li>
+                <li><a href="/index.html"><img src="/img/logo_blanc.png" alt="Logo Escape Space" class="logo"></a></li>
                 <li class="void"></li>
-                <li><a href="../index.html"><img src="../img/bouton_contact.png" alt="bouton contact" class="bouton_contact"></a></li>
-                <li><a href="../destinations.html"><img src="../img/bouton_destination.png" alt="bouton destination" class="bouton_destinations"></a></li>
+                <li>
+                    <div class="toggle-switch">
+                        <label class="switch-label">
+                            <input type="checkbox" class="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </li>
+                <li><a href="/contact.html"><img src="/img/bouton_contact.png" alt="bouton contact" class="bouton_contact"></a></li>
+                <li><a href="/destinations.html"><img src="/img/bouton_destination.png" alt="bouton destination" class="bouton_destinations"></a></li>
             </ul>
         </header>
         <div class="container">
@@ -81,12 +90,13 @@
         
         <footer class="footer">
             <ul>
-                <li><h3>Nous Suivre :</h3></li>
-                <li><a href="https://github.com/WNCMYN/WNCMYN.github.io"><img src="../img/github_blanc.png" alt="Logo Github"></a></li>
-                <li><a href="https://www.instagram.com/lilian.vlt13/"><img src="../img/Instagram_logo.png" alt="Logo Instagram"></a></li>
-                <li><a href="https://www.youtube.com/@madayt6068"><img src="../img/YouTube_logo.png" alt="Logo Youtube"></a></li>
-                <li><a href="https://www.univ-amu.fr"><img src="../img/logo_amu.png" alt="Logo amu"></a></li>
+                <li><h2>Nous Suivre :</h2></li>
+                <li><a href="https://github.com/WNCMYN/WNCMYN.github.io"><img src="/img/github_blanc.png" alt="Logo Github" class="github"></a></li>
+                <li><a href="https://www.instagram.com/lilian.vlt13/"><img src="/img/Instagram_logo.png" alt="Logo Instagram" class="insta"></a></li>
+                <li><a href="https://www.youtube.com/@madayt6068"><img src="/img/YouTube_logo.png" alt="Logo Youtube" class="youtube"></a></li>
+                <li><a href="https://www.univ-amu.fr"><img src="/img/logo_amu.png" alt="Logo amu"></a></li>
             </ul> 
         </footer>      
+        <script src="/script.js" defer></script>    
     </body>
 </html>
