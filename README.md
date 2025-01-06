@@ -74,7 +74,7 @@ Bienvenue dans le projet de création d'un site web pour une **agence de voyage 
 - [x] menu
 - [x] liens vers d'autres sites web
 - formulaire
-- video avec sous titrage
+- [x] video avec sous titrage
 - ancrage (pour longues pages)
 - possibilité de changer de style
 - [x] adaptatif
