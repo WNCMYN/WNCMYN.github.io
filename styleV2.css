@@ -289,10 +289,7 @@ body {
         margin-top: 4vh;
         justify-content: center;
     }
-    .dest_syst_planetes img:hover {
-        transform: scale(1.1);
-        z-index: 1;
-    }
+    
     .dest_syst_planetes img{
         height: 40vw;
         width: auto;
@@ -340,10 +337,7 @@ body {
         width: auto;
     }
 
-    .dest_syst_planetes img:hover {
-        transform: scale(1.1);
-        z-index: 1;
-    }
+    
 
     .dest_syst_planetes h3{
         display: flex;
@@ -382,10 +376,7 @@ body {
         width: auto;
     }
     
-    .dest_sw img:hover {
-        transform: scale(1.1);
-        z-index: 1;
-    }
+    
     .dest_sw h3{
         display: flex;
         justify-content: center;
@@ -412,10 +403,7 @@ body {
         height: 40vh;
         width: auto;
     }
-    .dest_sw img:hover {
-        transform: scale(1.1);
-        z-index: 1;
-    }
+    
     .dest_sw h3{
         display: flex;
         justify-content: center;
