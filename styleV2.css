@@ -567,7 +567,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 20px 0 15vh 0;
         position: relative;
     }
     .planet {
@@ -621,8 +621,12 @@ body {
         margin-left: 0; /* Pas de marge négative pour le premier élément */
     }
     .titre{
-        margin-top: 10vh;
-        font-size: 3vw;
+        padding-top: 15vh;
+        font-size: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 5vh;
+        margin: 0;
+        text-align: center;
     }
 }
 
