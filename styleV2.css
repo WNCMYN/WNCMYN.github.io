@@ -283,6 +283,11 @@ body {
         margin: 0;
         
     }
+    
+    .planets:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
 
     .dest_syst_planetes{
         display: flex;
@@ -331,7 +336,11 @@ body {
         padding: 0;
     }
 
-
+    .planets:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    
     .dest_syst_planetes img{
         height: 40vh;
         width: auto;
@@ -384,7 +393,10 @@ body {
         font-size: 3vh;
     }
 
-
+    .planets:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
 }
 
 @media (min-width: 1000px){
@@ -412,7 +424,11 @@ body {
     .dest_sw li{
         padding: 0 4vh;
     }
-
+    
+    .planets:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
 }
 
 
