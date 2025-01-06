@@ -13,7 +13,7 @@ elem.addEventListener('click',function(){
         destinations.setAttribute("src", "/img/bouton_destination-modified.png");
         contact.setAttribute("src", "/img/bouton_contact-modified.png");
         github.setAttribute("src", "/img/github_blanc-modified.png");
-        youtube.setAttribute("src", "/img/Youtube_logo-modified.png");
+        youtube.setAttribute("src", "/img/Youtube_logo.png");
         insta.setAttribute("src", "/img/Instagram_logo-modified.png");
     }
     else{
