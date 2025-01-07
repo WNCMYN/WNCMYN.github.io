@@ -263,6 +263,7 @@ body {
         position: fixed;
         bottom: 0;
         opacity: 0.75;
+        z-index: 1000;
     }
     .footer ul {
         display: flex; /* Met les <li> sur une ligne */
@@ -903,7 +904,7 @@ form textarea {
 #avis {
     margin: 50px auto;
     text-align: center;
-    overflow: hidden; /* Cache les avis en dehors de la vue */
+    overflow: hidden;
     width: 80%;
     position: relative;
     min-height: 200px;
@@ -913,13 +914,13 @@ form textarea {
 .avis-container {
     display: flex;
     gap: 20px;
-    animation: defilement-horizontal 20s linear infinite; /* 20s pour une animation plus lente */
+    animation: defilement-horizontal 20s linear infinite; /* 20s pour une animation lente */
 }
 
 /* Chaque avis */
 .avis-item {
     flex: 0 0 auto;
-    width: 250px; /* Taille de chaque bulle d'avis */
+    width: 250px;
     background: rgba(0, 0, 0, 0.75);
     color: white;
     padding: 15px;
@@ -927,17 +928,17 @@ form textarea {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: left;
     font-size: 1em;
-    white-space: normal; /* Retour à la ligne autorisé */
+    white-space: normal;
     word-wrap: break-word;
 }
 
 /* Animation infinie */
 @keyframes defilement-horizontal {
     from {
-        transform: translateX(0); /* Départ : tout visible */
+        transform: translateX(0);
     }
     to {
-        transform: translateX(-50%); /* Défile jusqu'à la moitié (clones inclus) */
+        transform: translateX(-50%);
     }
 }
 
@@ -946,25 +947,25 @@ form textarea {
 /* Responsive Design */
 @media (max-width: 799px) {
     .avis-container {
-        flex-direction: column; /* Empile les avis sur petits écrans */
-        animation: none; /* Désactive l'animation */
-        white-space: normal; /* Permet plusieurs lignes */
-        width: 100%; /* Assure une largeur complète */
+        flex-direction: column;
+        animation: none;
+        white-space: normal;
+        width: 100%;
     }
 
     .avis-item {
-        width: 100%; /* Prend toute la largeur disponible */
-        margin-bottom: 10px; /* Ajoute un espace entre les avis */
+        width: 100%;
+        margin-bottom: 10px
     }
 }
 
 @media (max-width: 599px) {
     #avis {
-        width: 90%; /* Réduit la largeur pour les très petits écrans */
+        width: 90%;
     }
 
     .avis-item {
-        font-size: 0.9em; /* Réduit légèrement la taille de la police */
+        font-size: 0.9em;
     }
 }
 
@@ -1004,12 +1005,12 @@ form textarea {
 /* Responsive pour les agences */
 @media (max-width: 799px) {
     .information .agences {
-        flex-direction: column; /* Empile les agences */
-        gap: 10px; /* Espacement entre agences */
+        flex-direction: column; 
+        gap: 10px;
     }
 
     .information .agence {
-        width: 100%; /* Prend toute la largeur */
+        width: 100%;
     }
 }
 
