@@ -62,16 +62,16 @@
                 </div>
                 <div class="agence">
                     <h4>Agence Beta</h4>
-                    <p>Adresse : Galactic Space Agency, Lunar Base One, Mare Tranquillitatis Moon 00100 Lunar Colony, USA</p>
+                    <p>Adresse : Galactic Space Agency, Lunar Base One, Mare Tranquillitatis  Moon 00100  Lunar Colony, USA</p>
                     <p>Horaires d'ouvertures: </p>
-                    <p>Lundi à vendredi 08:00 AM - 8:00 PM (Lunar Standard Time) Samedi: 09:00 AM - 5:00 PM (Lunar Standard Time) Dimanche: Fermé</p>
+                    <p>Lundi à vendredi 08:00 AM - 8:00 PM (Lunar Standard Time)  Samedi: 09:00 AM - 5:00 PM (Lunar Standard Time)  Dimanche: Fermé</p>
                 </div>
             </div>
             <div class="agence centre">
                 <h4>Agence Gamma</h4>
-                <p>Adresse : Galactic Space Agency, 500 Republica Tower, Imperial City Coruscant 00001 Galactic Core</p>
+                <p>Adresse : Galactic Space Agency, 500 Republica Tower, Imperial City  Coruscant 00001  Galactic Core</p>
                 <p>Horaires d'ouvertures: </p>
-                <p>Galactic Standard Time (GST) Lundi à vendredi: 0800 - 2000 GST Samedi: 0900 - 1700 GST Dimanche: Fermé</p>
+                <p>Galactic Standard Time (GST) Lundi à vendredi: 0800 - 2000 GST  Samedi: 0900 - 1700 GST  Dimanche: Fermé</p>
             </div>
         </section>
 
@@ -97,11 +97,11 @@
             const avisContainer = document.querySelector('.avis-container');
             const avisItems = Array.from(avisContainer.children);
         
-            // Clone les avis une fois pour assurer un défilement continu
+            // Clone les avis une fois
             avisItems.forEach(item => avisContainer.appendChild(item.cloneNode(true)));
         
-            let scrollPosition = 0; // Position actuelle du défilement
-            const scrollSpeed = 1; // Vitesse de défilement (pixels par intervalle)
+            let scrollPosition = 0; // Position actuelle
+            const scrollSpeed = 1; // Vitesse de défilement
         
             function defilementInfini() {
                 scrollPosition += scrollSpeed;
