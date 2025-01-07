@@ -76,6 +76,14 @@
         <!-- Pied de page -->
         <footer class="footer">
             <ul>
+                <li>
+                    <div class="toggle-switch">
+                        <label class="switch-label">
+                            <input type="checkbox" class="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </li>
                 <li><h3>Nous Suivre :</h3></li>
                 <li><a href="#"><img src="img/github_blanc.webp" alt="Logo Github"></a></li>
                 <li><a href="#"><img src="img/Instagram_logo.webp" alt="Logo Instagram"></a></li>
@@ -86,11 +94,11 @@
             const avisContainer = document.querySelector('.avis-container');
             const avisItems = Array.from(avisContainer.children);
         
-            // Clone les avis une fois pour assurer un défilement continu
+            // Clone les avis une fois
             avisItems.forEach(item => avisContainer.appendChild(item.cloneNode(true)));
         
-            let scrollPosition = 0; // Position actuelle du défilement
-            const scrollSpeed = 1; // Vitesse de défilement (pixels par intervalle)
+            let scrollPosition = 0; // Position actuelle
+            const scrollSpeed = 1; // Vitesse de défilement
         
             function defilementInfini() {
                 scrollPosition += scrollSpeed;
