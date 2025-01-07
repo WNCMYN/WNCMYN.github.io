@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escape Space - Contact</title>
+        <link rel="stylesheet" href="styleV2.css">
+        <link rel="icon" type="image/vnd.icon" href="img/favicon.ico">
+    </head>
+    <body>
+        <!-- En-tête -->
+        <header class="header">
+            <ul>
+                <li><a href="index.html"><img src="img/logo_blanc.png" alt="Logo Escape Space" class="logo"></a></li>
+                <li class="void"></li>
+                <li><a href="index.html"><img src="img/bouton_contact.png" alt="bouton contact" class="bouton_contact"></a></li>
+                <li><a href="destinations.html"><img src="img/bouton_destination.png" alt="bouton destination" class="bouton_destinations"></a></li>
+            </ul>
+        </header>
+
+        <!-- Titre principal -->
+        <h1 class="title">Contact</h1>
+
+        <!-- Formulaire -->
+        <form id="form">
+            <div class="ligne">
+                <input id="nom" type="text" name="nom" placeholder="Votre Nom" required>
+                <input id="prenom" type="text" name="prenom" placeholder="Votre Prénom" required>
+            </div>
+            <div class="ligne-centree">
+                <input id="email" type="email" name="email" placeholder="Votre Mail" required>
+            </div>
+            <div class="ligne-centree">
+                <textarea id="message" name="message" placeholder="Votre Message" required></textarea>
+            </div>
+            <input type="submit" value="Envoyer">
+        </form>
+
+        <!-- Avis Clients -->
+        <section id="avis">
+            <h2>Avis Clients</h2>
+            <div class="avis-container">
+                <div class="avis-item">"Super voyage, merci Escape Space !" - Jean Dupont</div>
+                <div class="avis-item">"Une expérience inoubliable parmi les étoiles !" - Marie</div>
+                <div class="avis-item">"Voyage de qualité, je recommande !" - Pierre Durand</div>
+                <div class="avis-item">"Une aventure incroyable. Merci !" - Clara Moreau</div>
+            </div>
+        </section>
+        
+
+        <!-- Informations des Agences -->
+        <section class="information">
+            <h3>Informations des Agences</h3>
+            <div class="agences">
+                <div class="agence">
+                    <h4>Agence Alpha</h4>
+                    <p>Adresse : 123 Rue des Etoiles, Paris</p>
+                    <p>Téléphone : 01 23 45 67 89</p>
+                    <p>Email : alpha@escape.com</p>
+                </div>
+                <div class="agence">
+                    <h4>Agence Beta</h4>
+                    <p>Adresse : 456 Avenue du Cosmos, Lyon</p>
+                    <p>Téléphone : 04 56 78 90 12</p>
+                    <p>Email : beta@escape.com</p>
+                </div>
+            </div>
+            <div class="agence centre">
+                <h4>Agence Gamma</h4>
+                <p>Adresse : 789 Boulevard de la Galaxie, Marseille</p>
+                <p>Téléphone : 09 87 65 43 21</p>
+                <p>Email : gamma@escape.com</p>
+            </div>
+        </section>
+
+        <!-- Pied de page -->
+        <footer class="footer">
+            <ul>
+                <li><h3>Nous Suivre :</h3></li>
+                <li><a href="#"><img src="img/github_blanc.png" alt="Logo Github"></a></li>
+                <li><a href="#"><img src="img/Instagram_logo.png" alt="Logo Instagram"></a></li>
+                <li><a href="#"><img src="img/YouTube_logo.png" alt="Logo Youtube"></a></li>
+            </ul>
+        </footer>
+        <script>
+            const avisContainer = document.querySelector('.avis-container');
+            const avisItems = Array.from(avisContainer.children);
+        
+            // Clone les avis une fois pour assurer un défilement continu
+            avisItems.forEach(item => avisContainer.appendChild(item.cloneNode(true)));
+        
+            let scrollPosition = 0; // Position actuelle du défilement
+            const scrollSpeed = 1; // Vitesse de défilement (pixels par intervalle)
+        
+            function defilementInfini() {
+                scrollPosition += scrollSpeed;
+                avisContainer.style.transform = `translateX(-${scrollPosition}px)`;
+        
+                // Réinitialise la position lorsque tout a défilé
+                if (scrollPosition >= avisContainer.scrollWidth / 2) {
+                    scrollPosition = 0;
+                }
+        
+                requestAnimationFrame(defilementInfini); // Boucle infinie
+            }
+        
+            defilementInfini(); // Démarrage de l'animation
+        </script>
+        
+    </body>
+</html>
