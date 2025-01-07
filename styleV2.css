@@ -57,7 +57,7 @@ body {
         list-style: none; /* Supprime les puces */
         margin: 0;
         padding: 0;
-        height: 15vh;
+        height: 10%;
     }
 
     .void{
@@ -65,18 +65,18 @@ body {
     }
 
     .logo {
-        height: 15vh; /* Taille du logo */
+        height: 10%; /* Taille du logo */
         width: auto; /* Conserve les proportions */
         margin-left: 3vw;
     }
 
     .bouton_contact{
-        height: 7vh; /* Taille du logo */
+        height: 5%; /* Taille du logo */
         width: auto; /* Conserve les proportions */
     }
 
     .bouton_destinations{
-        height: 7vh; /* Taille du logo */
+        height: 5%; /* Taille du logo */
         width: auto; /* Conserve les proportions */
         padding: 5%;
         margin-right: 3vw;
