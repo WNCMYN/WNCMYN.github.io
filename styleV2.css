@@ -1037,7 +1037,7 @@ form textarea {
 }
 
 .page-contact {
-    padding-top: 100px;
+    padding-top: 100px; /* Ajuste pour laisser de l'espace sous le header */
     padding-bottom: 100px;
     box-sizing: border-box;
 }
@@ -1050,7 +1050,7 @@ form textarea {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 120px;
+    margin-bottom: 120px; /* Ajoute de l'espace pour éviter la superposition avec le footer */
     position: relative;
     z-index: 1;
 }
