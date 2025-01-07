@@ -770,14 +770,6 @@ body {
     
 }
 
-/* Les mofifications CSS sont à rajouter a partir d'ici,
-Veuillez regroupez les commandes CSS par page et la commenter.
-Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
-Encore sur le nom des class et des pages. Il ne nous est pas demandé de developper en anglais donc on reste en francais pour éviter des erreurs betes.*/
-
-/*Implémentation de la page index.html dans le css et adaptation aux media queries*/
-
-/*Implémentation de la page moon.html sans les videos et adaptation aux media queries*/
 
 
 /* Style global pour le formulaire */
@@ -1043,3 +1035,14 @@ form textarea {
         width: 90%;
     }
 }
+
+/* Les mofifications CSS sont à rajouter a partir d'ici,
+Veuillez regroupez les commandes CSS par page et la commenter.
+Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
+Encore sur le nom des class et des pages. Il ne nous est pas demandé de developper en anglais donc on reste en francais pour éviter des erreurs betes.*/
+
+/*Implémentation de la page index.html dans le css et adaptation aux media queries*/
+
+/*Implémentation de la page moon.html sans les videos et adaptation aux media queries*/
+
+/*Implémentation de la page contact.html*/
