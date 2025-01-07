@@ -43,7 +43,7 @@ body {
     header {
         background-color: rgb(0, 0, 0);
         width: 100%;
-        height: 20vh;
+        height: 10vh;
         color: white;
         position: fixed;
         top: 0;
@@ -567,13 +567,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px 0 15vh 0;
+        padding: 5vh 0 15vh 0;
         position: relative;
     }
     .planet {
         display: block;
         width: 20vw; /* Ajustez la largeur selon vos besoins */
-        margin-left: -50px; /* Ajustez la valeur pour le chevauchement */
+        margin-left: -5vw; /* Ajustez la valeur pour le chevauchement */
         transition: transform 0.3s ease;
     }
     .planet:hover {
@@ -600,13 +600,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 4vh;
         position: relative;
     }
     .planet {
         display: block;
         width: 20vw; /* Ajustez la largeur selon vos besoins */
-        margin-left: -20px; /* Ajustez la valeur pour le chevauchement */
+        margin-left: -4vw; /* Ajustez la valeur pour le chevauchement */
         transition: transform 0.3s ease;
     }
     .planet:hover {
