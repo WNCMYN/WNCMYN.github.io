@@ -1,3 +1,4 @@
+@@ -1,1072 +1,1072 @@
 /* code generique à chaque page du site*/
 
 /* le fond du site, la police et sa couleur */
@@ -43,7 +44,7 @@ body {
     header {
         background-color: rgb(0, 0, 0);
         width: 100%;
-        height: 10%;
+        height: 80px;
         color: white;
         position: fixed;
         top: 0;
@@ -57,7 +58,7 @@ body {
         list-style: none; /* Supprime les puces */
         margin: 0;
         padding: 0;
-        height: 10%;
+        height: 80px;
     }
 
     .void{
@@ -65,18 +66,18 @@ body {
     }
 
     .logo {
-        height: 10%; /* Taille du logo */
+        height: 80px; /* Taille du logo */
         width: auto; /* Conserve les proportions */
         margin-left: 3vw;
     }
 
     .bouton_contact{
-        height: 5%; /* Taille du logo */
+        height: 40px; /* Taille du logo */
         width: auto; /* Conserve les proportions */
     }
 
     .bouton_destinations{
-        height: 5%; /* Taille du logo */
+        height: 40px; /* Taille du logo */
         width: auto; /* Conserve les proportions */
         padding: 5%;
         margin-right: 3vw;
@@ -90,7 +91,7 @@ body {
         --link: rgb(27, 129, 112);
         --link-hover: rgb(24, 94, 82);
     }
-    
+
     .switch-label {
         position: absolute;
         width: 100%;
@@ -100,12 +101,12 @@ body {
         cursor: pointer;
         border: 3px solid var(--dark);
     }
-    
+
     .checkbox {
         position: absolute;
         display: none;
     }
-    
+
     .slider {
         position: absolute;
         width: 100%;
@@ -114,11 +115,11 @@ body {
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    
+
     .checkbox:checked ~ .slider {
         background-color: var(--light);
     }
-    
+
     .slider::before {
         content: "";
         position: absolute;
@@ -133,7 +134,7 @@ body {
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    
+
     .checkbox:checked ~ .slider::before {
         -webkit-transform: translateX(50px);
         -ms-transform: translateX(50px);
@@ -155,8 +156,8 @@ body {
         top: 0;
         opacity: 0.75;
     }
-    
-    
+
+
     .header ul{
         display: flex;
         align-items: center;
@@ -165,22 +166,22 @@ body {
         padding: 0;
         height: 14vw;
     }
-    
+
     .void{
         width: 100%;
     }
-    
+
     .logo {
         height: 14vw; /* Taille du logo */
         width: auto; /* Conserve les proportions */
         margin-left: 2vh;
     }
-    
+
     .bouton_contact{
         height: 8vw; /* Taille du logo */
         width: auto; /* Conserve les proportions */
     }
-    
+
     .bouton_destinations{
         height: 8vw; /* Taille du logo */
         width: auto; /* Conserve les proportions */
@@ -196,7 +197,7 @@ body {
         --link: rgb(27, 129, 112);
         --link-hover: rgb(24, 94, 82);
     }
-    
+
     .switch-label {
         position: absolute;
         width: 100%;
@@ -206,12 +207,12 @@ body {
         cursor: pointer;
         border: 3px solid var(--dark);
     }
-    
+
     .checkbox {
         position: absolute;
         display: none;
     }
-    
+
     .slider {
         position: absolute;
         width: 100%;
@@ -220,11 +221,11 @@ body {
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    
+
     .checkbox:checked ~ .slider {
         background-color: var(--light);
     }
-    
+
     .slider::before {
         content: "";
         position: absolute;
@@ -239,7 +240,7 @@ body {
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    
+
     .checkbox:checked ~ .slider::before {
         -webkit-transform: translateX(50px);
         -ms-transform: translateX(50px);
@@ -257,7 +258,7 @@ body {
     footer{
         background-color: rgb(0, 0, 0);
         width: 100%;
-        height: 15vh;
+        height: 80px;
         color: white;
         align-items: center;
         position: fixed;
@@ -273,7 +274,7 @@ body {
         height: 100%;
     }
     .footer li {
-        margin-right: 1vw; /* Réduit l'espacement entre les icônes */
+        margin-right: 20px; /* Réduit l'espacement entre les icônes */
     } 
     .footer h3{
         margin: 0;
@@ -281,7 +282,7 @@ body {
 
     }
     .footer img {
-        width: 4vw; /* Ajuste la taille des icônes */
+        width: 40px; /* Ajuste la taille des icônes */
         height: auto; /* Conserve le ratio de l'image */
     }
 }
@@ -306,7 +307,7 @@ body {
         height: 100%;
     }
     .footer li {
-        margin: 0 1vw; /* Réduit l'espacement entre les icônes */
+        margin: 0 10px; /* Réduit l'espacement entre les icônes */
     } 
     .footer h3{
         display: none;
@@ -394,7 +395,7 @@ body {
         width: 100%;
         height: auto;
     }
-    
+
     .soleil_vertical{
         display: none;
     }
@@ -403,9 +404,9 @@ body {
         list-style: none;
         padding: 8vh 0;
         margin: 0;
-        
+
     }
-    
+
     .planets:hover {
         transform: scale(1.1);
         z-index: 1;
@@ -416,7 +417,7 @@ body {
         margin-top: 4vh;
         justify-content: center;
     }
-    
+
     .dest_syst_planetes img{
         height: 40vw;
         width: auto;
@@ -433,7 +434,7 @@ body {
 
 
 @media (min-width: 1000px){
-    
+
 
     .soleil_vertical{
         display: flex;
@@ -444,7 +445,7 @@ body {
     .soleil_vertical img{
         width: 12vw;
     }
-    
+
     .soleil_horizontal{
         display: none;
     }
@@ -461,18 +462,18 @@ body {
         scrollbar-color: rgb(53, 53, 53) rgb(0, 0, 0);
     }
 
-    
+
     .planets:hover {
         transform: scale(1.1);
         z-index: 1;
     }
-    
+
     .dest_syst_planetes img{
         height: 40vh;
         width: auto;
     }
 
-    
+
     .dest_syst_planetes h3{
         display: flex;
         justify-content: center;
@@ -509,8 +510,8 @@ body {
         height: 40vw;
         width: auto;
     }
-    
-    
+
+
     .dest_sw h3{
         display: flex;
         justify-content: center;
@@ -543,7 +544,7 @@ body {
         height: 40vh;
         width: auto;
     }
-    
+
     .dest_sw h3{
         display: flex;
         justify-content: center;
@@ -553,7 +554,7 @@ body {
     .dest_sw li{
         padding: 0 4vh;
     }
-    
+
     .planets:hover {
         transform: scale(1.1);
         z-index: 1;
@@ -567,13 +568,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5vh 0 15vh 0;
+        padding: 20px 0 15vh 0;
         position: relative;
     }
     .planet {
         display: block;
         width: 20vw; /* Ajustez la largeur selon vos besoins */
-        margin-left: -5vw; /* Ajustez la valeur pour le chevauchement */
+        margin-left: -50px; /* Ajustez la valeur pour le chevauchement */
         transition: transform 0.3s ease;
     }
     .planet:hover {
@@ -600,13 +601,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 4vh;
+        padding: 20px;
         position: relative;
     }
     .planet {
         display: block;
         width: 20vw; /* Ajustez la largeur selon vos besoins */
-        margin-left: -4vw; /* Ajustez la valeur pour le chevauchement */
+        margin-left: -20px; /* Ajustez la valeur pour le chevauchement */
         transition: transform 0.3s ease;
     }
     .planet:hover {
@@ -718,39 +719,39 @@ body {
         padding: 50px;
         flex-wrap: wrap; /* Allow flex items to wrap on small screens */
     }
-    
+
     .left-column, .center-column, .right-column {
         padding: 20px;
         border-radius: 10px;
         margin: 10px;
         flex: 1 1 100%; /* Default to full width */
     }
-    
+
     .center-column .moon-image img {
         width: 100%;
         height: auto;
         border-radius: 50%;
     }
-    
+
     .grand_titre {
         font-size: 36px;
         margin-bottom: 10px;
     }
-    
+
     .sous_titre {
         font-size: 20px;
         margin-top: 0;
     }
-    
+
     .descriptif {
         margin: 10px 0;
     }
-    
+
     .liste {
         list-style-type: disc;
         padding-left: 20px;
     }
-    
+
     .button {
         display: inline-block;
         margin-top: 20px;
@@ -763,11 +764,11 @@ body {
         text-decoration: none;
         transition: background-color 0.3s ease;
     }
-    
+
     .button:hover {
         background-color: #ddd;
     }
-    
+
 }
 
 
@@ -1037,6 +1038,7 @@ form textarea {
 }
 
 .page-contact {
+    padding-top: 100px;
     padding-top: 100px; /* Ajuste pour laisser de l'espace sous le header */
     padding-bottom: 100px;
     box-sizing: border-box;
@@ -1050,6 +1052,7 @@ form textarea {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 120px;
     margin-bottom: 120px; /* Ajoute de l'espace pour éviter la superposition avec le footer */
     position: relative;
     z-index: 1;
