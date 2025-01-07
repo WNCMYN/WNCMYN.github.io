@@ -73,10 +73,10 @@ Bienvenue dans le projet de création d'un site web pour une **agence de voyage 
 - [x] thème
 - [x] menu
 - [x] liens vers d'autres sites web
-- formulaire
+- [x] formulaire
 - [x] video avec sous titrage
 - ancrage (pour longues pages)
-- possibilité de changer de style
+- [x] possibilité de changer de style
 - [x] adaptatif
 - bonne architecture des répertoires
 - [x] programation soignée
