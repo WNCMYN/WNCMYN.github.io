@@ -263,7 +263,6 @@ body {
         position: fixed;
         bottom: 0;
         opacity: 0.75;
-        z-index: 1000;
     }
     .footer ul {
         display: flex; /* Met les <li> sur une ligne */
@@ -1035,6 +1034,30 @@ form textarea {
     .information{
         width: 90%;
     }
+}
+
+.page-contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.page-contact .information {
+    margin: 50px auto;
+    text-align: center;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.page-contact footer {
+    position: relative;
+    margin-top: 50px;
 }
 
 /* Les mofifications CSS sont à rajouter a partir d'ici,
