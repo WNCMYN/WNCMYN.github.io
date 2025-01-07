@@ -778,3 +778,268 @@ Encore sur le nom des class et des pages. Il ne nous est pas demandé de develop
 /*Implémentation de la page index.html dans le css et adaptation aux media queries*/
 
 /*Implémentation de la page moon.html sans les videos et adaptation aux media queries*/
+
+
+/* Style global pour le formulaire */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Éléments internes du formulaire */
+#form label, 
+#form input, 
+#form textarea {
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Bouton de soumission */
+#form input[type="submit"] {
+    background-color: #350cc9;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #24098a; /* Couleur plus foncée au survol */
+}
+
+/* Champs sur une ligne */
+form .ligne {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form .champ {
+    flex: 1;
+    margin-left: 65px;
+}
+
+form .champ:last-child {
+    margin-right: 0px;
+}
+
+/* Email centré */
+form .ligne-centree {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Champ message */
+form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none; /* Empêche le redimensionnement */
+}
+
+::placeholder {
+    text-align: center; 
+ }
+
+/* Responsive Design */
+@media (min-width: 800px) {
+    #form {
+        width: 50%;
+    }
+
+    #form label, 
+    #form input, 
+    #form textarea {
+        width: 80%;
+    }
+
+    #form input[type="submit"] {
+        width: auto;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 799px) and (min-width: 600px) {
+    #form {
+        width: 70%;
+    }
+
+    #form label, 
+    #form input, 
+    #form textarea {
+        width: 90%;
+    }
+
+    #form input[type="submit"] {
+        width: auto;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 599px) {
+    #form {
+        width: 90%;
+    }
+
+    #form label, 
+    #form input, 
+    #form textarea {
+        width: 100%;
+    }
+
+    #form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Avis */
+
+/* Section Avis */
+/* Conteneur principal */
+#avis {
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden; /* Cache les avis en dehors de la vue */
+    width: 80%;
+    position: relative;
+    min-height: 200px;
+}
+
+/* Conteneur des avis */
+.avis-container {
+    display: flex;
+    gap: 20px;
+    animation: defilement-horizontal 20s linear infinite; /* 20s pour une animation plus lente */
+}
+
+/* Chaque avis */
+.avis-item {
+    flex: 0 0 auto;
+    width: 250px; /* Taille de chaque bulle d'avis */
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 1em;
+    white-space: normal; /* Retour à la ligne autorisé */
+    word-wrap: break-word;
+}
+
+/* Animation infinie */
+@keyframes defilement-horizontal {
+    from {
+        transform: translateX(0); /* Départ : tout visible */
+    }
+    to {
+        transform: translateX(-50%); /* Défile jusqu'à la moitié (clones inclus) */
+    }
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 799px) {
+    .avis-container {
+        flex-direction: column; /* Empile les avis sur petits écrans */
+        animation: none; /* Désactive l'animation */
+        white-space: normal; /* Permet plusieurs lignes */
+        width: 100%; /* Assure une largeur complète */
+    }
+
+    .avis-item {
+        width: 100%; /* Prend toute la largeur disponible */
+        margin-bottom: 10px; /* Ajoute un espace entre les avis */
+    }
+}
+
+@media (max-width: 599px) {
+    #avis {
+        width: 90%; /* Réduit la largeur pour les très petits écrans */
+    }
+
+    .avis-item {
+        font-size: 0.9em; /* Réduit légèrement la taille de la police */
+    }
+}
+
+
+
+/* Informations des agences */
+.information {
+    margin-top: 50px;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center ;
+}
+
+/* Alignement des agences */
+.information .agences {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.information .agence {
+    flex: 1;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Remonter les agences */
+.information {
+    margin-bottom: -200px;
+}
+
+/* Responsive pour les agences */
+@media (max-width: 799px) {
+    .information .agences {
+        flex-direction: column; /* Empile les agences */
+        gap: 10px; /* Espacement entre agences */
+    }
+
+    .information .agence {
+        width: 100%; /* Prend toute la largeur */
+    }
+}
+
+/* Ajustement des titres */
+.title, h2, h3 {
+    text-align: center;
+    margin : 50px auto;
+    font-size: 2em;
+    z-index: 1;
+}
+
+/* Responsive global */
+@media (max-width: 599px) {
+    #avis {
+        width: 90%;
+    }
+
+    .avis-item {
+        font-size: 0.9em;
+    }
+
+    .information{
+        width: 90%;
+    }
+}
