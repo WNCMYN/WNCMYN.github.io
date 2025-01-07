@@ -8,15 +8,17 @@
         <link rel="icon" type="image/vnd.icon" href="img/favicon.ico">
     </head>
     <body class="page-contact">
+
         <!-- En-tête -->
         <header class="header">
             <ul>
-                <li><a href="index.html"><img src="img/logo_blanc.webp" alt="Logo Escape Space" class="logo"></a></li>
+                <li><a href="index.html"><img src="img/logo_blanc.png" alt="Logo Escape Space" class="logo"></a></li>
                 <li class="void"></li>
                 <li><a href="index.html"><img src="img/bouton_contact.png" alt="bouton contact" class="bouton_contact"></a></li>
                 <li><a href="destinations.html"><img src="img/bouton_destination.png" alt="bouton destination" class="bouton_destinations"></a></li>
             </ul>
         </header>
+        
 
         <!-- Titre principal -->
         <h1 class="title">Contact</h1>
@@ -54,22 +56,22 @@
             <div class="agences">
                 <div class="agence">
                     <h4>Agence Alpha</h4>
-                    <p>Adresse : Galactic Space Agency, 8349 Cosmic Avenue Detroit, MI 48226  USA</p>
+                    <p>Adresse : Galactic Space Agency, 8349 Cosmic AvenueDetroit, MI 48226 USA</p>
                     <p>Horaires d'ouvertures: </p>
-                    <p> Lundi à vendredi: 9:00 AM - 6:00 PM  Samedi: 10:00 AM - 4:00 PM  Dimanche: fermé</p>
+                    <p>Lundi à vendredi: 9:00 AM - 6:00 PM Samedi: 10:00 AM - 4:00 PM Dimanche: fermé</p>
                 </div>
                 <div class="agence">
                     <h4>Agence Beta</h4>
-                    <p>Adresse : Galactic Space Agency, Lunar Base One, Mare Tranquillitatis  Moon 00100  Lunar Colony, USA</p>
+                    <p>Adresse : Galactic Space Agency, Lunar Base One, Mare Tranquillitatis Moon 00100 Lunar Colony, USA</p>
                     <p>Horaires d'ouvertures: </p>
-                    <p>Lundi à vendredi 08:00 AM - 8:00 PM (Lunar Standard Time)  Samedi: 09:00 AM - 5:00 PM (Lunar Standard Time)  Dimanche: Fermé</p>
+                    <p>Lundi à vendredi 08:00 AM - 8:00 PM (Lunar Standard Time) Samedi: 09:00 AM - 5:00 PM (Lunar Standard Time) Dimanche: Fermé</p>
                 </div>
             </div>
             <div class="agence centre">
                 <h4>Agence Gamma</h4>
-                <p>Adresse : Galactic Space Agency, 500 Republica Tower, Imperial City  Coruscant 00001  Galactic Core</p>
+                <p>Adresse : Galactic Space Agency, 500 Republica Tower, Imperial City Coruscant 00001 Galactic Core</p>
                 <p>Horaires d'ouvertures: </p>
-                <p> Galactic Standard Time (GST) Lundi à vendredi: 0800 - 2000 GST  Samedi: 0900 - 1700 GST  Dimanche: Fermé</p>
+                <p>Galactic Standard Time (GST) Lundi à vendredi: 0800 - 2000 GST Samedi: 0900 - 1700 GST Dimanche: Fermé</p>
             </div>
         </section>
 
@@ -95,11 +97,11 @@
             const avisContainer = document.querySelector('.avis-container');
             const avisItems = Array.from(avisContainer.children);
         
-            // Clone les avis une fois
+            // Clone les avis une fois pour assurer un défilement continu
             avisItems.forEach(item => avisContainer.appendChild(item.cloneNode(true)));
         
-            let scrollPosition = 0; // Position actuelle
-            const scrollSpeed = 1; // Vitesse de défilement
+            let scrollPosition = 0; // Position actuelle du défilement
+            const scrollSpeed = 1; // Vitesse de défilement (pixels par intervalle)
         
             function defilementInfini() {
                 scrollPosition += scrollSpeed;
