@@ -283,7 +283,7 @@ footer{
     .footer li {
         margin-right: 20px; /* Réduit l'espacement entre les icônes */
     } 
-    .footer h3{
+    .footer h2{
         margin: 0;
         height: auto;
 
@@ -316,7 +316,7 @@ footer{
     .footer li {
         margin: 0 10px; /* Réduit l'espacement entre les icônes */
     } 
-    .footer h3{
+    .footer h2{
         display: none;
 
     }
