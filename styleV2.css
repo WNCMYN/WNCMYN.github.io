@@ -317,6 +317,9 @@ body {
         width: 6vw; /* Ajuste la taille des icônes */
         height: auto; /* Conserve le ratio de l'image */
     }
+    .suivre{
+          width: 20vw;
+    }
 }
 
 /* page destinations */
