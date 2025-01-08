@@ -1100,6 +1100,13 @@ form textarea {
     margin-bottom: 20px;
 }
 
+.panier-image { /* si ajout de future image */
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .panier-details {
     flex: 1;
     display: flex;
