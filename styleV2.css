@@ -1021,7 +1021,7 @@ form textarea {
 }
 
 /* Ajustement des titres */
-.title, h2, h3 {
+.title {
     text-align: center;
     margin : 50px auto;
     font-size: 2em;
