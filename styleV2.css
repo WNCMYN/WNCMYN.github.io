@@ -1069,6 +1069,88 @@ form textarea {
     margin-top: 50px;
 }
 
+.page-panier main {
+    padding: 100px 20px 80px; /* Espace pour le header et footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.panier-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+}
+
+.panier-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.panier-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.panier-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quantite-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantite-container input {
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+}
+
+.panier-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.panier-total h3 {
+    font-size: 1.5em;
+}
+
+.button-valider {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-valider:hover {
+    background-color: lightgray;
+}
+
+
 /* Les mofifications CSS sont à rajouter a partir d'ici,
 Veuillez regroupez les commandes CSS par page et la commenter.
 Il faudrait également rajouter le nom de la page avant chaque nom de class pour éviter que deux commandes avec le mêmes noms s'executent.
