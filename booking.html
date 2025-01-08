@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escape Space - Contact</title>
+        <link rel="stylesheet" href="styleV2.css">
+        <link rel="icon" type="image/vnd.icon" href="img/favicon.ico">
+    </head>
+    <body class="page-panier">
+
+        <!-- En-tête -->
+        <header class="header">
+            <ul>
+                <li><a href="index.html"><img src="img/logo_blanc.png" alt="Logo Escape Space" class="logo"></a></li>
+                <li class="void"></li>
+                <li><a href="index.html"><img src="img/bouton_contact.png" alt="bouton contact" class="bouton_contact"></a></li>
+                <li><a href="destinations.html"><img src="img/bouton_destination.png" alt="bouton destination" class="bouton_destinations"></a></li>
+            </ul>
+        </header>
+        
+
+        <!-- Page principal -->
+        <main>
+            <section class="panier-container">
+                <h1>Votre panier</h1>
+                <div class="panier-item">
+                    <div class="panier-details">
+                        <p>Prix : <span class="prix"> 50000€</span> par personne</p>
+                        <div class="quantite-container">
+                            <label for="quantite">Quantité :</label>
+                            <input type="number" id="quantite" name="quantite" value="1" min="1">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="panier-total">
+                    <h3>Total : <span id="total">50000€</span></h3>
+                    <button class="button-valider">Valider votre commande</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Pied de page -->
+        <footer class="footer">
+            <ul>
+                <li>
+                    <div class="toggle-switch">
+                        <label class="switch-label">
+                            <input type="checkbox" class="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </li>
+                <li><h3>Nous Suivre :</h3></li>
+                <li><a href="https://github.com/WNCMYN/WNCMYN.github.io"><img src="img/github_blanc.png" alt="Logo Github" class="github"></a></li>
+                <li><a href="https://www.instagram.com/lilian.vlt13/"><img src="img/Instagram_logo.png" alt="Logo Instagram"  class="insta"></a></li>
+                <li><a href="https://www.youtube.com/@madayt6068"><img src="img/YouTube_logo.png" alt="Logo Youtube" class="youtube"></a></li>
+                <li><a href="https://www.univ-amu.fr"><img src="img/logo_amu.png" alt="Logo amu"></a></li>
+            </ul>
+        </footer>
+        <script>
+            const quantiteInput = document.getElementById('quantite');
+            const totalElement = document.getElementById('total');
+            const prixUnitaire = 50000;
+        
+            quantiteInput.addEventListener('input', () => {
+                const quantite = parseInt(quantiteInput.value) || 1;
+                const total = quantite * prixUnitaire;
+                totalElement.textContent = `${total}€`;
+            });
+        </script>
+        
+        
+    </body>
+</html>
