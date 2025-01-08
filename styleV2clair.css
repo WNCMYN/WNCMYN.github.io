@@ -23,6 +23,7 @@ footer{
 .information {
     background: rgba(255, 255, 255, 255.75);
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    color:black;
 }
 
 .avis-item {
