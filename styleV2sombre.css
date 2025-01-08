@@ -10,3 +10,21 @@ footer{
     background-color: rgb(0, 0, 0);
     color: white;
 }
+.page-contact .information {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.information .agence {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.information {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.avis-item {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
